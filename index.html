@@ -481,12 +481,11 @@
                     </div>
                     <div class="item-date">Aug 2022 – Present</div>
                 </div>
+
                 <ul class="achievement-list">
-                    <li>Designed heterogeneous and adaptable clustered replication protocols with formal safety and liveness proofs</li>
-                    <li>Developed a pipelined HotStuff variant improving <span class="highlight">geo-distributed throughput by 22%</span></li>
-                    <li>Built ECROs: Executable Consistent Replicated Objects for distributed deployments</li>
-                    <li>Integrated hierarchical federated learning for cluster-aware scheduling and latency handling</li>
+                    <li>Designed and implemented a fault-tolerant, dynamically reconfigurable geo-replicated database system supporting heterogeneous cluster sizes and arbitrary failures; formally proved safety and liveness, and evaluated on Google Cloud with Ava-HotStuff and Ava-BFT-SMaRt (ICDE 2025). Experiments with 12 clusters demonstrated performance improvements of over ~500% for Ava-HotStuff and ~80% for Ava-BFT-SMaRt compared to their non-clustered counterparts.</li>
                 </ul>
+                
             </div>
 
             <div class="experience-item">
@@ -498,8 +497,8 @@
                     <div class="item-date">Aug 2019 – Aug 2021</div>
                 </div>
                 <ul class="achievement-list">
-                    <li>Developed ML models for hair density segmentation achieving <span class="highlight">~85% accuracy</span></li>
-                    <li>Implemented 3D morphable head model fitting for mixed-reality clinical applications</li>
+                    <li>Developed a hair segmentation and density estimation model (~85% accuracy) using coarse clinical labels refined with matting-based annotations as ground truth, enabling accurate alopecia areata mapping.</li>
+                    <li>Worked on visualization and mapping of 2D image hair density segmentation masks onto 3D morphable head model with a tailored geometrical structure for different individuals. Successfully completed 3D Morphable Model fitting across the complete pose range (including back and top views of the head), using techniques from structure from motion and multi view stereo with videos of individuals as input.</li>
                 </ul>
             </div>
 
@@ -512,56 +511,160 @@
                     <div class="item-date">Aug 2017 – Jul 2018</div>
                 </div>
                 <ul class="achievement-list">
-                    <li>Computed energy accommodation coefficients via molecular dynamics and DFT simulations</li>
-                    <li>Extended LAMMPS for non-equilibrium thermodynamic integration of alumina free energy</li>
+                    <li>Evaluated Energy accommodation coefficients (EAC) that dictate  heat transfer occurring in nanoparticles by analyzing gas surface interactions, using Molecular Dynamics simulations. Used Morse pair potentials derived from DFT simulations to model gas-surface interactions.</li>
+                    <li>Extended LAMMPS to compute the free energy of solid and liquid Alumina using the Non-Equilibrium Thermodynamic Integration approach.</li>
                 </ul>
             </div>
         </section>
+<section id="publications" class="section">
+  <h2><i class="fas fa-file-alt"></i> Selected Publications</h2>
+  <div class="citation-count">
+    <i class="fas fa-quote-right"></i> 80+ Citations | 10+ Published Articles
+  </div>
 
-        <section id="publications" class="section">
-            <h2><i class="fas fa-file-alt"></i> Selected Publications</h2>
-            <div class="citation-count">
-                <i class="fas fa-quote-right"></i> 80+ Citations | 8+ Published Articles
+  <div class="publications-grid">
+
+    <div class="publication-item">
+      <div class="publication-title">Hamava: Fault-Tolerant Reconfigurable Geo-Replication on Heterogeneous Clusters</div>
+      <div class="publication-authors"><strong>Tejas Mane</strong>, Xiao Li, Mohammad Sadoghi, Mohsen Lesani</div>
+      <div class="publication-venue">IEEE 41st International Conference on Data Engineering (ICDE), 2025</div>
+      <a href="https://www.computer.org/csdl/proceedings-article/icde/2025/360300c024/26FZAyBRzva" class="publication-link" target="_blank">
+        <i class="fas fa-external-link-alt"></i> View Paper
+      </a>
+    </div>
+
+    <div class="publication-item">
+      <div class="publication-title">Automating hair loss labels for universally scoring alopecia from images: rethinking alopecia scores</div>
+      <div class="publication-authors">Cameron Gudobba, <strong>Tejas Mane</strong>, Aylar Bayramova, N Rodriguez, L Castelo-Soccio, et al.</div>
+      <div class="publication-venue">JAMA Dermatology, 2023</div>
+      <a href="https://jamanetwork.com/journals/jamadermatology/fullarticle/2799338" class="publication-link" target="_blank">
+        <i class="fas fa-external-link-alt"></i> View Paper
+      </a>
+    </div>
+
+    <div class="publication-item">
+      <div class="publication-title">Single-camera 3D head fitting for mixed reality clinical applications</div>
+      <div class="publication-authors"><strong>Tejas Mane</strong>, Aylar Bayramova, Kostas Daniilidis, Philippos Mordohai, Elena Bernardis</div>
+      <div class="publication-venue">Computer Vision and Image Understanding, 218, 103384, 2022</div>
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S1077314222000224" class="publication-link" target="_blank">
+        <i class="fas fa-external-link-alt"></i> View Paper
+      </a>
+    </div>
+
+    <div class="publication-item">
+      <div class="publication-title">3D head visualization for mapping and tracking dermatological conditions</div>
+      <div class="publication-authors"><strong>Tejas Mane</strong>, Aylar Bayramova, Elena Bernardis</div>
+      <div class="publication-venue">Journal of Investigative Dermatology, 141 (5), S80, 2021</div>
+      <!-- No public link available -->
+    </div>
+
+    <div class="publication-item">
+      <div class="publication-title">Effect of melting on energy accommodation coefficients of aluminum–noble gas systems</div>
+      <div class="publication-authors">J Thoudam, <strong>Tejas Mane</strong>, D Sundaram</div>
+      <div class="publication-venue">The Journal of Physical Chemistry C, 124 (40), 22105–22116, 2020</div>
+      <!-- Add DOI/link if available -->
+    </div>
+
+    <div class="publication-item">
+      <div class="publication-title">Photographing alopecia: how many pixels are needed for clinical evaluation?</div>
+      <div class="publication-authors">Aylar Bayramova, <strong>Tejas Mane</strong>, C Hopkins, Y Zheng, TA Ogunleye, SC Taylor, et al.</div>
+      <div class="publication-venue">Journal of Digital Imaging, 33 (6), 1404–1409, 2020</div>
+      <!-- Add DOI/link if available -->
+    </div>
+
+    <div class="publication-item">
+      <div class="publication-title">Atomistically informed melting models for aluminum nanocrystals</div>
+      <div class="publication-authors">N Mathur, <strong>Tejas Mane</strong>, D Sundaram</div>
+      <div class="publication-venue">Chemical Physics, 522, 188–198, 2019</div>
+      <!-- Add DOI/link if available -->
+    </div>
+
+    <div class="publication-item">
+      <div class="publication-title">Size effect on melting temperatures of alumina nanocrystals: Molecular dynamics simulations and thermodynamic modeling</div>
+      <div class="publication-authors">N Joshi, N Mathur, <strong>Tejas Mane</strong>, D Sundaram</div>
+      <div class="publication-venue">Computational Materials Science, 145, 140–153, 2018</div>
+      <!-- Add DOI/link if available -->
+    </div>
+
+    <div class="publication-item">
+      <div class="publication-title">Energy accommodation under non-equilibrium conditions for aluminum-inert gas systems</div>
+      <div class="publication-authors"><strong>Tejas Mane</strong>, P Bhat, V Yang, DS Sundaram</div>
+      <div class="publication-venue">Surface Science, 677, 135–148, 2018</div>
+      <!-- Add DOI/link if available -->
+    </div>
+
+    <div class="publication-item">
+      <div class="publication-title">Continuous hair density differentiation to score extent of alopecia areas automatically</div>
+      <div class="publication-authors"><strong>Tejas Mane</strong>, Aylar Bayramova, L Castelo-Soccio, Elena Bernardis</div>
+      <div class="publication-venue">Journal of Investigative Dermatology, 140 (7), S114</div>
+      <!-- Conference/abstract entry; add link if available -->
+    </div>
+
+  </div>
+</section>
+
+<section id="projects" class="section">
+    <h2><i class="fas fa-code"></i>Projects</h2>
+    
+    <div class="projects-grid">
+
+        <div class="project-item">
+                    <div class="project-title">Trichy - Alopecia Monitoring Platform</div>
+                    <p>Developed a web-based interface for alopecia monitoring in collaboration with the Department of Dermatology, University of Pennsylvania.</p>
+        </div>
+
+        <div class="project-item">
+            <div class="project-title">Distributed Search Engine</div>
+            <p><strong>Technologies:</strong> Java, AWS EC2, S3, MapReduce, Spark, Berkeley DB<br>
+            Developed a cloud-based distributed search engine in a team of 2, crawling over <span class="highlight">1M+ documents</span>, implementing PageRank and a user interface.</p>
+        </div>
+
+        <div class="project-item">
+            <div class="project-title">
+                Web Application for SAT Score Prediction/Analysis 
+                <a href="https://github.com/TejasMane/SatScoreWebApp" target="_blank"><i class="fas fa-external-link-alt"></i></a>
             </div>
-            
-            <div class="publications-grid">
-                <div class="publication-item">
-                    <div class="publication-title">Hamava: Fault-Tolerant Reconfigurable Geo-Replication on Heterogeneous Clusters</div>
-                    <div class="publication-authors"><strong>Tejas Mane</strong>, Xiao Li, Mohammad Sadoghi, Mohsen Lesani</div>
-                    <div class="publication-venue">IEEE 41st International Conference on Data Engineering (ICDE), 2025</div>
-                    <a href="https://www.computer.org/csdl/proceedings-article/icde/2025/360300c024/26FZAyBRzva" class="publication-link" target="_blank">
-                        <i class="fas fa-external-link-alt"></i> View Paper
-                    </a>
-                </div>
+            <p><strong>Technologies:</strong> AngularJS, NodeJS, Bootstrap, AWS RDS, MySQL, MongoDB<br>
+            Built a full-stack predictive analytics app in a team of 4 with web-scraped SAT score data, query optimization, and caching.</p>
+        </div>
 
-                <div class="publication-item">
-                    <div class="publication-title">Single-Camera 3D Head Fitting for Mixed Reality Clinical Applications</div>
-                    <div class="publication-authors"><strong>Tejas Mane</strong>, Aylar Bayramova, Philippos Mordohai, Kostas Daniilidis, Elena Bernardis</div>
-                    <div class="publication-venue">Computer Vision and Image Understanding (CVIU), 2022</div>
-                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S1077314222000224" class="publication-link" target="_blank">
-                        <i class="fas fa-external-link-alt"></i> View Paper
-                    </a>
-                </div>
+        <div class="project-item">
+            <div class="project-title">Penn OS</div>
+            <p><strong>Technologies:</strong> C, Linux<br>
+            Built an operating system simulator in a team of 4 with a preemptive priority scheduler and file system; implemented the file system component.</p>
+        </div>
 
-                <div class="publication-item">
-                    <div class="publication-title">Automating hair loss labels for universally scoring alopecia from images: rethinking alopecia scores</div>
-                    <div class="publication-authors">Cameron Gudobba*, <strong>Tejas Mane*</strong>, Aylar Bayramova, et al, Elena Bernardis</div>
-                    <div class="publication-venue">JAMA Dermatology, 2023</div>
-                    <a href="https://jamanetwork.com/journals/jamadermatology/fullarticle/2799338" class="publication-link" target="_blank">
-                        <i class="fas fa-external-link-alt"></i> View Paper
-                    </a>
-                </div>
+        <div class="project-item">
+            <div class="project-title">Sentiment Analysis using Deep Learning</div>
+            <p><strong>Technologies:</strong> Keras, Sklearn<br>
+            Applied Random Forest, CNN, and LSTM models on the Quora dataset to detect insincere questions, achieving <span class="highlight">f1-score &gt; 0.65</span>.</p>
+        </div>
+
+        <div class="project-item">
+            <div class="project-title">
+                Development of 2D2V/2D3V Particle-In-Cell Code
+                <a href="https://github.com/TejasMane/2D2V-2D3V" target="_blank"><i class="fas fa-external-link-alt"></i></a>
             </div>
-        </section>
+            <p><strong>Technologies:</strong> Python, Arrayfire<br>
+            Wrote 1000+ lines of code for undergraduate thesis to model the Vlasov–Maxwell system for collisionless plasmas.</p>
+        </div>
+
+        <div class="project-item">
+            <div class="project-title">Generating DFT Derived Morse Interaction Potentials</div>
+            <p><strong>Technologies:</strong> Quantum Espresso<br>
+            Performed DFT calculations to evaluate noble gas–aluminum interactions and derived Morse pair potentials for molecular dynamics simulations.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- 
 
         <section id="projects" class="section">
             <h2><i class="fas fa-code"></i> Selected Projects</h2>
             
             <div class="projects-grid">
-                <div class="project-item">
-                    <div class="project-title">Multi-tier Federated Learning Framework</div>
-                    <p>Developed simulation tools and Flower-based aggregation logic for benchmarking latency-robust learning in clustered environments.</p>
-                </div>
 
                 <div class="project-item">
                     <div class="project-title">Trichy - Alopecia Monitoring Platform</div>
@@ -584,41 +687,68 @@
                     <p>Applied Random Forest, CNN, and LSTM models on Quora dataset achieving <span class="highlight">f1-score > 0.65</span>.</p>
                 </div>
             </div>
-        </section>
+        </section> -->
+<section id="skills" class="section">
+    <h2><i class="fas fa-cogs"></i> Technical Skills</h2>
+    
+    <div class="skills-grid">
 
-        <section id="skills" class="section">
-            <h2><i class="fas fa-cogs"></i> Technical Skills</h2>
-            
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">C++</span>
-                        <span class="skill-tag">Java</span>
-                        <span class="skill-tag">LaTeX</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-tools"></i> Tools & Frameworks</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">gRPC</span>
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">Raft/HotStuff</span>
-                        <span class="skill-tag">PyTorch</span>
-                        <span class="skill-tag">Flower</span>
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">Linux</span>
-                        <span class="skill-tag">AWS</span>
-                        <span class="skill-tag">GCP</span>
-                    </div>
-                </div>
+        <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Programming Languages</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">C++</span>
+                <span class="skill-tag">Java</span>
+                <span class="skill-tag">SQL</span>
             </div>
-        </section>
+        </div>
+
+        <div class="skill-category">
+            <h3><i class="fas fa-brain"></i> Machine Learning & AI</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">PyTorch</span>
+                <span class="skill-tag">TensorFlow</span>
+                <span class="skill-tag">scikit-learn</span>
+                <span class="skill-tag">Flower</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">Kubernetes</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">Linux</span>
+                <span class="skill-tag">OpenMP</span>
+                <span class="skill-tag">OpenCV</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3><i class="fas fa-network-wired"></i> Distributed Systems</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">Raft</span>
+                <span class="skill-tag">Stellar</span>
+                <span class="skill-tag">Fault Tolerance</span>
+                <span class="skill-tag">Consensus Algorithms</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3><i class="fas fa-cloud"></i> Cloud Platforms</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">AWS (EC2, RDS, S3)</span>
+                <span class="skill-tag">Google Cloud Platform (GCP)</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
 
         <section class="section">
-            <h2><i class="fas fa-newspaper"></i> Media Coverage & Patents</h2>
+            <h2><i class="fas fa-newspaper"></i> Media Coverage & Licenses</h2>
             
             <div class="publication-item" style="margin-bottom: 20px;">
                 <div class="publication-title">New Technology Could Allow Us to Rethink Alopecia Scores</div>
@@ -652,7 +782,7 @@
                 <div class="award-item">
                     <div class="award-title">KVPY Fellowship</div>
                     <div class="award-year">2012</div>
-                    <p>Selected among top 500 nationally for prestigious Indian science scholarship, funded by the Department of Science and Technology, Government of India</p>
+                    <p>Among the top 500 candidates in the country selected for the KYPY fellowship, which is a scholarship program funded by the Department of Science and Technology of the Government of India.</p>
                 </div>
 
                 <div class="award-item">
