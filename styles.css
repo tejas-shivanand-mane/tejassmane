@@ -190,6 +190,9 @@ a { color: inherit; text-decoration: none; }
   gap: clamp(24px, 4vw, 52px);
   align-items: start;
 }
+.hero__text {
+  min-width: 0;
+}
 .hero__media {
   padding-top: 28px;
 }
