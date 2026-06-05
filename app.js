@@ -6,15 +6,6 @@
   const tabButtons = Array.from(document.querySelectorAll(".tab"));
   const panels = Array.from(document.querySelectorAll(".panel"));
 
-  // Right-fade hint when tabs overflow
-  function checkOverflow() {
-    const wrap = document.querySelector(".tabs-wrap");
-    const tabs = document.querySelector(".tabs");
-    if (!wrap || !tabs) return;
-    wrap.classList.toggle("has-overflow", tabs.scrollWidth > tabs.clientWidth + 2);
-  }
-  window.addEventListener("resize", checkOverflow);
-  setTimeout(checkOverflow, 200);
 
   function activate(name, push) {
     if (!TABS.includes(name)) name = "about";
