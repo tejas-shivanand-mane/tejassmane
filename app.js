@@ -1,6 +1,6 @@
 /* Tab navigation: show one panel at a time, persist via hash + localStorage */
 (function () {
-  const TABS = ["about", "experience", "publications", "skills", "recognition", "contact"];
+  const TABS = ["about", "education", "experience", "publications", "skills", "recognition", "contact"];
   const STORE = "tm_portfolio_tab";
 
   const tabButtons = Array.from(document.querySelectorAll(".tab"));
